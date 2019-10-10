@@ -1,0 +1,29 @@
+label {
+    display:
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 1px;
+}
+
+#id {
+	float: left;
+	width: 190px;
+}
+
+
+textarea {
+line-height: 1.5;
+  width: 320px
+  padding: 10px;
+  border: 1px solid red;
+  margin: 1;
+}
+
+textarea:focus {
+    background: white;
+    color: black;
+    border: 0.2rem solid green;
+}
